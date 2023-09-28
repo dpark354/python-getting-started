@@ -22,6 +22,9 @@ import hello.views
 urlpatterns = [
     path("", hello.views.index, name="index"),
     path("db/", hello.views.db, name="db"),
+    path('page1/', views.page1, name='page1'),
+    path('page2/', views.page2, name='page2'),
+    path('page3/', views.page3, name='page3'),
     # Uncomment this and the entry in `INSTALLED_APPS` if you wish to use the Django admin feature:
     # https://docs.djangoproject.com/en/4.2/ref/contrib/admin/
     # path("admin/", admin.site.urls),
