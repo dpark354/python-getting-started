@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from jango.shortcuts import render
 
 from .models import Greeting
 
