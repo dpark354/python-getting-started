@@ -25,6 +25,7 @@ urlpatterns = [
     path('page1/', hello.views.page1, name='page1'),
     path('page2/', hello.views.page2, name='page2'),
     path('page3/', hello.views.page3, name='page3'),
+    path('resume/', hello.views.resume, name='resume'),
     # Uncomment this and the entry in `INSTALLED_APPS` if you wish to use the Django admin feature:
     # https://docs.djangoproject.com/en/4.2/ref/contrib/admin/
     # path("admin/", admin.site.urls),
